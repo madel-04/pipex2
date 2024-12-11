@@ -49,9 +49,9 @@ char	*find_path(char *cmd, char **envp)
 
 void	execute(char *argc, char **envp)
 {
-	char 	**cmd;
+	char	**cmd;
 	int		i;
-	char 	*path;
+	char	*path;
 
 	i = -1;
 	cmd = ft_split(argc, ' ');
